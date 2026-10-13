@@ -6,7 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import io
-df = pd.read_csv(=['StudentsPerformance.csv')
+df = pd.read_csv('StudentsPerformance.csv')
 sns.set_style('whitegrid')
 
 #Exp 4:
