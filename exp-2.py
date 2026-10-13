@@ -6,10 +6,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import io
 
-from google.colab import files
 
-uploaded = files.upload()
-df = pd.read_csv(io.BytesIO(uploaded['StudentsPerformance.csv']))
+df = pd.read_csv('StudentsPerformance.csv')
 
 sns.set_style('whitegrid')
 
